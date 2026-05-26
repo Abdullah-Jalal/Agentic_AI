@@ -37,3 +37,9 @@ compilation - > super step or routing
 
 #without_llm , #with llm used api key Mistral case nodes , edges , states GraphState main node 
 then compile intial state to question answer, propmting to put question ,model.invoke to answer
+
+sequential work flow with proper nodes edges and compilation and with graph , with initial state and final state answer 
+
+with parallel we change the nodes based on all with start in our case summary was just different so connect each with summary and the last summary to END node so the parallel processing cant adjust the whole state we provide one by one 
+partial state is the best
+entire state is best for sequential
