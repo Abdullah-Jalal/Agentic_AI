@@ -32,3 +32,4 @@ while i < len(encoded):
     i += length
 
 print("Decoded:", decoded)
+print()
